@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--76d43c43-7070-5d51-a63f-a9db3b6cc2ef",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Cinnamon Tempest uses Cheerscrypt",
+    "source_ref": "intrusion-set--53ba95a2-5c9b-5f48-80d0-6b8146a15a9e",
+    "target_ref": "malware--aeb15a98-a3ee-58c5-a6ca-20dfb1a46825",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

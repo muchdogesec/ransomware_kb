@@ -1,0 +1,24 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--9389f8cb-3df0-5dc1-b8c1-075c6aedc56d",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Nltest",
+    "description": "A command-line tool used to check trust relationships, domain controller status, and other domain-related information, often used in Active Directory environments.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0064"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "S0359"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

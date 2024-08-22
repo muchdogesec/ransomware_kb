@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--e38d9368-1fc5-5272-9a84-bbd1687754b1",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Sandworm Team",
+    "description": "Sandworm Team, also known as Unit 74455, is a Russian cyber espionage group linked to the GRU, Russia's military intelligence agency. They are infamous for their involvement in some of the most disruptive cyberattacks, including the NotPetya ransomware attack and attacks on Ukrainian infrastructure. Sandworm Team is known for using highly destructive malware and ransomware in geopolitical cyber operations.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0008"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0034"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

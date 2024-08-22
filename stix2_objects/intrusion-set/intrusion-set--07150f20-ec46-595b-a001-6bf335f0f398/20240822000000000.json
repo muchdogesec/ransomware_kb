@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--07150f20-ec46-595b-a001-6bf335f0f398",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Vice Society",
+    "description": "Vice Society is a ransomware group known for targeting the education and healthcare sectors. They are recognized for using double extortion tactics, where they exfiltrate data before encrypting systems and threaten to leak the data if the ransom isn't paid. Vice Society is relatively new but has quickly become a significant threat due to its focus on vulnerable sectors.",
+    "aliases": [
+        "DEV-0832",
+        "Vanilla Tempest"
+    ],
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0004"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

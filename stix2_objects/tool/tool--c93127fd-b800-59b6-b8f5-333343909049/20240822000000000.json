@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--c93127fd-b800-59b6-b8f5-333343909049",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "PingCastle",
+    "description": "A security assessment tool for Active Directory that identifies potential vulnerabilities and misconfigurations, providing a report on the overall security posture.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0065"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

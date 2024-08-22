@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--c005aee0-3be9-543a-966c-e5f8a31e4b76",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Universal Virus Sniffer",
+    "description": "A portable antivirus tool that detects and removes malware, often used as a secondary scanner to complement other security solutions.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0083"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

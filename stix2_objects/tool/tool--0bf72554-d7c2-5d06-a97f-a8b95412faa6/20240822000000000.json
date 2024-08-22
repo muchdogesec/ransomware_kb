@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--0bf72554-d7c2-5d06-a97f-a8b95412faa6",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Router Scan",
+    "description": "A tool used to scan for and exploit vulnerabilities in routers and network devices, often used by attackers to gain unauthorized access to network infrastructure.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0104"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

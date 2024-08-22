@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--835f0f1b-c599-54f0-a07d-b2dfa0248b59",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Metasploit",
+    "description": "A widely-used penetration testing framework that provides tools for developing and executing exploit code against a target machine, commonly used by security professionals and ethical hackers.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0024"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

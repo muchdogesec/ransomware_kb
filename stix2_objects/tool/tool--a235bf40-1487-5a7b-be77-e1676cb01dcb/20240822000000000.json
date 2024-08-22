@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--a235bf40-1487-5a7b-be77-e1676cb01dcb",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Ligolo",
+    "description": "A reverse tunneling tool for pentesters and red teams, allowing them to establish a secure tunnel from a compromised system back to their attacker's machine.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0036"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

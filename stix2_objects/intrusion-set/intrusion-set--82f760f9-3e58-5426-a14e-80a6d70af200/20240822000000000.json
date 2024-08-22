@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--82f760f9-3e58-5426-a14e-80a6d70af200",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "EXOTIC LILY\n",
+    "description": "EXOTIC LILY is a threat actor group known for its role as an initial access broker, working with various ransomware groups to provide access to compromised networks. They use spear-phishing campaigns to infiltrate organizations, selling access to ransomware operators. EXOTIC LILY is known for its sophisticated phishing techniques and its role in facilitating ransomware attacks.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0020"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G1011"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

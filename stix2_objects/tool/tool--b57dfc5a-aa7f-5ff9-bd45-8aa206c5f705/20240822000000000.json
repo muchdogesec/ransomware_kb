@@ -1,0 +1,24 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--b57dfc5a-aa7f-5ff9-bd45-8aa206c5f705",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "PowerSploit",
+    "description": "A collection of PowerShell scripts designed for penetration testing and post-exploitation tasks, allowing attackers to perform reconnaissance, privilege escalation, and more.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0027"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "S0194"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

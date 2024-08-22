@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--bf503b37-6bf1-5afe-9bc3-4accf989097c",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Seabelt",
+    "description": "A security tool designed to audit and analyze Active Directory environments for potential vulnerabilities, often used in red teaming and penetration testing.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0067"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

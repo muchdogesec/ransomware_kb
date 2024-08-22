@@ -1,0 +1,23 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--8ce2cdf7-a36d-54df-978c-f49e318e1eb3",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Karakurt",
+    "description": "Karakurt is a cyber extortion group known for focusing on data theft and extortion rather than traditional ransomware attacks. Instead of encrypting files, Karakurt steals sensitive data from targeted organizations and threatens to release it publicly unless a ransom is paid. The group is notorious for quick and aggressive operations, often targeting organizations with weak cybersecurity defenses.",
+    "aliases": [
+        "Karakurt Lair"
+    ],
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0002"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

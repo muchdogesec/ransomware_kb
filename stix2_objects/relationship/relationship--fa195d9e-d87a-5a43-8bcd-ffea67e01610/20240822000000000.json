@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--fa195d9e-d87a-5a43-8bcd-ffea67e01610",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Akira uses RustDesk",
+    "source_ref": "intrusion-set--f43c7909-278b-5c13-9361-4bd59e8181a4",
+    "target_ref": "tool--f08f9b9d-70e5-55c1-b6df-4b058863be45",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

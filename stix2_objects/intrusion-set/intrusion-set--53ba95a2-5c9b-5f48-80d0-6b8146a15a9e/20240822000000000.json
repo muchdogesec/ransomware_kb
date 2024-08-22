@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--53ba95a2-5c9b-5f48-80d0-6b8146a15a9e",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Cinnamon Tempest",
+    "description": "Cinnamon Tempest is a lesser-known cybercrime group believed to be involved in ransomware and other financially motivated cyber activities. The group's operations are not as well-documented as others, but they are known for targeting organizations with sophisticated malware and extortion tactics. They may also be associated with other more prominent ransomware groups.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0021"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G1021"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

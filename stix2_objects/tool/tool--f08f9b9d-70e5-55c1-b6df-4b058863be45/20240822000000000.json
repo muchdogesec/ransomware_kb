@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--f08f9b9d-70e5-55c1-b6df-4b058863be45",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "RustDesk",
+    "description": "An open-source remote desktop software that provides secure and simple remote access solutions, allowing users to control computers remotely over the internet.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0012"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

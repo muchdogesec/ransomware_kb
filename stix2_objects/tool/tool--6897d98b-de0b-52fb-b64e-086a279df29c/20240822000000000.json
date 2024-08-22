@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--6897d98b-de0b-52fb-b64e-086a279df29c",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Windows Event Utility",
+    "description": "Tools and utilities that allow for the viewing, management, and monitoring of Windows Event Logs, often used in forensic investigations and system monitoring.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0043"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--b73cca0b-4d3b-52a4-8023-6c5fa198aff7",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Wizard Spider uses Diavol",
+    "source_ref": "intrusion-set--52918eb2-1019-5fc1-81e4-f456961ad2d7",
+    "target_ref": "malware--de52245d-bc30-5ac4-acf3-75abe2d34505",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

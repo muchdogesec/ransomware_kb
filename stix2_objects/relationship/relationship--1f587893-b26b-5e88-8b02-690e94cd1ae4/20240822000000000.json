@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--1f587893-b26b-5e88-8b02-690e94cd1ae4",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Wizard Spider uses Ryuk",
+    "source_ref": "intrusion-set--52918eb2-1019-5fc1-81e4-f456961ad2d7",
+    "target_ref": "malware--60127783-e788-5ff4-80cb-6bcc68cedfec",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--705af713-8075-5456-9c18-819014d39b3e",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "AWS Systems Manager Inventory",
+    "description": "A tool that collects and stores information about your managed instances, helping administrators track and manage software and configurations across AWS environments.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0060"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

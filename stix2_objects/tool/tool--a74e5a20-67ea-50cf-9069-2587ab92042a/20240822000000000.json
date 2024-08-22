@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--a74e5a20-67ea-50cf-9069-2587ab92042a",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "WinSCP",
+    "description": "A free and open-source SFTP, SCP, and FTP client for Windows, allowing secure file transfers between a local and a remote computer, widely used in IT and web development.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0055"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

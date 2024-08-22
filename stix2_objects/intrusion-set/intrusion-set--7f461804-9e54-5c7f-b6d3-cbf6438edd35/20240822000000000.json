@@ -1,0 +1,29 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--7f461804-9e54-5c7f-b6d3-cbf6438edd35",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Scattered Spider",
+    "description": "Scattered Spider, also known as UNC3944, is a sophisticated cybercriminal group that uses advanced social engineering tactics and spear-phishing campaigns to infiltrate organizations. While not exclusively a ransomware group, they have been associated with ransomware attacks, particularly through facilitating access for other ransomware operators. They target various sectors, including telecommunications and technology.",
+    "aliases": [
+        "Storm-0875",
+        "Roasted 0ktapus",
+        "Octo Tempest"
+    ],
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0003"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G1015"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--ba5c38a7-90b3-56b8-9679-d81657c27e71",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "TA505",
+    "description": "TA505 is a prolific cybercrime group that has been active since at least 2014. They are known for distributing banking Trojans, including Dridex, and later shifting to ransomware operations with strains like Locky, Jaff, and Clop. TA505 is known for their large-scale phishing campaigns and targeting of financial institutions, healthcare, and retail sectors.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0010"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0092"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}
