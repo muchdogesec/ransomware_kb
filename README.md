@@ -2,6 +2,8 @@
 
 ## Overview
 
+![](docs/ransomware_kb.png)
+
 Ransomware KB aims to be a centralised knowledgebase, in STIX 2.1 format, that provides a standard for ransomware specific information.
 
 It was born from our frustration of various intelligence producers each naming the same ransomware ever-so-slightly differently.
@@ -19,6 +21,7 @@ At present the following concepts are supported;
 3. Tools (STIX `tool` objects, ID in format `TXXXX`): that describe the Tools used by ransomware operators and groups.
 4. Victims (TODO): infected by the ransomware
 5. Malware (TODO): that describes other malware variants (not ransomware) used by groups during a campaign
+6. Linking obejcts to MITRE ATT&CK Tactics and Techniques (TODO)
 
 ## Data generation
 
