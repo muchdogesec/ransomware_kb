@@ -1,0 +1,4 @@
+stix2==3.0.1
+pandas==2.2.2
+uuid==1.30
+openpyxl==3.1.5
