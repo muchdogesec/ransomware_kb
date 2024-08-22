@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--69eb454b-a8ed-5a24-949c-244b7f86b34a",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Evilginx2",
+    "description": "A man-in-the-middle attack framework used to bypass two-factor authentication by phishing for session cookies, often used in red teaming and ethical hacking exercises.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0021"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

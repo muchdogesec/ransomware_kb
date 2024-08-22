@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--b5a1257a-b16a-5ed4-8e0f-a255297987bd",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Advanced Port Scanner",
+    "description": "A fast and reliable network scanner for detecting open ports on network devices, often used for network troubleshooting and security assessments.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0058"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

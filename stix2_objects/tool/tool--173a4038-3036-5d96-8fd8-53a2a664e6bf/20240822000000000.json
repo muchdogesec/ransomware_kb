@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--173a4038-3036-5d96-8fd8-53a2a664e6bf",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "NeTupport",
+    "description": "Likely a misspelling or lesser-known tool, possibly related to network support or remote management, though specific details are not widely available.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0009"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

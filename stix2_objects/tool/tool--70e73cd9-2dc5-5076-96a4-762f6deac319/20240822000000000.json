@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--70e73cd9-2dc5-5076-96a4-762f6deac319",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Cloudflared",
+    "description": "A tunneling tool provided by Cloudflare, allowing users to securely expose a local server to the internet through Cloudflare's network, often used for remote access and troubleshooting.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0034"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--0f0155da-4030-5d39-8776-fa084a3c403d",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Impacket",
+    "description": "A collection of Python classes for working with network protocols, used by penetration testers to perform a variety of network-based attacks, including SMB relay attacks.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0022"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "S0357"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--ebdec8d4-f824-5dcf-af9f-161dc726f02b",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group GOLD SOUTHFIELD uses REvil",
+    "source_ref": "intrusion-set--81226d95-5a39-5102-92e8-fda05fa4abb2",
+    "target_ref": "malware--3e855f81-45bf-5bcf-95e7-5e3b432e4122",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

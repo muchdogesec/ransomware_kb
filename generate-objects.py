@@ -34,6 +34,16 @@ def generate_uuid(name):
 # Function to create an external reference
 def create_external_references(row):
     references = []
+    if pd.notna(row.get('external_id')):
+        references.append(ExternalReference(
+            source_name="ransomware-kb",
+            external_id=row['external_id']
+        ))
+    if pd.notna(row.get('mitre_attack_id')):
+        references.append(ExternalReference(
+            source_name="mitre-attack",
+            external_id=row['mitre_attack_id']
+        ))
     for col in row.index:
         if col.startswith('ref.') and pd.notna(row[col]) and isinstance(row[col], str):
             ref_name = col.split('ref.')[-1]
@@ -83,6 +93,11 @@ if added_object:
 file_path = 'data/ransomware_kb_master.xlsx'
 xl = pd.ExcelFile(file_path)
 
+# Function to create platform list
+def get_platforms(row):
+    platforms = [platform.split('.')[1] for platform in row.index if platform.startswith('platform.') and pd.notna(row[platform]) and row[platform]]
+    return platforms
+
 # Process the 'Intrusion Set - Groups' tab
 groups_df = xl.parse('Intrusion Set - Groups')
 for index, row in groups_df.iterrows():
@@ -105,7 +120,8 @@ for index, row in groups_df.iterrows():
             object_marking_refs=[
                 marking_definition.id,
                 "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
-            ]
+            ],
+            allow_custom=True
         )
 
         added_object = add_object(intrusion_set)
@@ -114,11 +130,6 @@ for index, row in groups_df.iterrows():
 
     except Exception as e:
         print(f"Error processing row {index} in 'Intrusion Set - Groups': {e}")
-
-# Function to create platform list
-def get_platforms(row):
-    platforms = [platform.split('.')[1] for platform in row.index if platform.startswith('platform.') and pd.notna(row[platform]) and row[platform]]
-    return platforms
 
 # Process the 'Malware - Ransomware' tab
 ransomware_df = xl.parse('Malware - Ransomware')
@@ -157,7 +168,7 @@ for index, row in ransomware_df.iterrows():
     except Exception as e:
         print(f"Error processing row {index} in 'Malware - Ransomware': {e}")
 
-# Process the 'Tool - Tools' tab similarly to handle platforms
+# Process the 'Tool - Tools' tab
 tools_df = xl.parse('Tool - Tools')
 tool_map = {}
 for index, row in tools_df.iterrows():
@@ -220,7 +231,8 @@ for _, row in groups_df.iterrows():
                     object_marking_refs=[
                         marking_definition.id,
                         "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
-                    ]
+                    ],
+                    allow_custom=True
                 )
 
                 added_object = add_object(relationship)
@@ -255,7 +267,8 @@ for _, row in groups_df.iterrows():
                     object_marking_refs=[
                         marking_definition.id,
                         "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
-                    ]
+                    ],
+                    allow_custom=True
                 )
 
                 added_object = add_object(relationship)

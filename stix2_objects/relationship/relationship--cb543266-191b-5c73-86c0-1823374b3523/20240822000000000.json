@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--cb543266-191b-5c73-86c0-1823374b3523",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Scattered Spider uses BlackCat",
+    "source_ref": "intrusion-set--7f461804-9e54-5c7f-b6d3-cbf6438edd35",
+    "target_ref": "malware--da77cbf3-7dcc-559e-a6a3-7f629b05d61a",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

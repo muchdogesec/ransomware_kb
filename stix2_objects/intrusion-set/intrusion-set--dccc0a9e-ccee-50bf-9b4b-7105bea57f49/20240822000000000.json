@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--dccc0a9e-ccee-50bf-9b4b-7105bea57f49",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Lazarus Group",
+    "description": "Lazarus Group is a North Korean state-sponsored cybercrime group known for its involvement in a wide range of cyberattacks, including ransomware, cyber espionage, and financial theft. The group has been linked to the WannaCry ransomware attack and the theft of millions of dollars from financial institutions. Lazarus Group is highly sophisticated and operates on a global scale, often with geopolitical motivations.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0017"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0032"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

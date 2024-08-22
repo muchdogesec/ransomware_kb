@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--83e21d94-4b24-53f8-a468-b3584473ba60",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "FIN7",
+    "description": "FIN7, also known as Carbanak Group, is a financially motivated cybercrime group that has targeted the hospitality, retail, and financial sectors globally. They are known for their sophisticated phishing campaigns and the use of advanced malware, including Carbanak and Cobalt Strike. Although FIN7 is primarily focused on financial theft, they have also been linked to ransomware operations.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0013"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0046"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

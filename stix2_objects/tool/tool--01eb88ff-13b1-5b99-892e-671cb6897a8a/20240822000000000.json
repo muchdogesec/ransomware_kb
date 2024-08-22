@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--01eb88ff-13b1-5b99-892e-671cb6897a8a",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Dropbox",
+    "description": "A cloud storage service that allows users to store and share files across multiple devices, commonly used for personal and business file management.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0047"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

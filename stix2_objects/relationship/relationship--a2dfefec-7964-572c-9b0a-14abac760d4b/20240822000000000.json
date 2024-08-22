@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--a2dfefec-7964-572c-9b0a-14abac760d4b",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Andariel uses Maui Ransomware",
+    "source_ref": "intrusion-set--db376406-b801-5ece-9a25-a7d48047a48b",
+    "target_ref": "malware--2b453d9c-ab10-5237-a3b9-89d4bacf1430",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

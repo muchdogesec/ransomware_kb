@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--d6ff27fd-1181-539a-ac30-ab2f52cb8beb",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "NirSoft RemoteDesktopPassView (rdpv)",
+    "description": "A tool from NirSoft that retrieves and displays passwords stored by the Windows Remote Desktop utility, often used in forensic investigations and by attackers.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0096"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

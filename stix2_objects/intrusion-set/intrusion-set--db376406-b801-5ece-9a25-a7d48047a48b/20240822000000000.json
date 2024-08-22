@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--db376406-b801-5ece-9a25-a7d48047a48b",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Andariel",
+    "description": "Andariel is a sub-group of the larger Lazarus Group, linked to North Korea's intelligence agency. Andariel specializes in cyber espionage and financially motivated cyberattacks, including ransomware. They are known for targeting South Korean businesses and government entities, as well as international financial institutions, to generate revenue for the North Korean regime.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0011"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0138"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "type": "relationship",
+    "spec_version": "2.1",
+    "id": "relationship--115abb30-092d-5165-8215-8c37d96c60af",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "relationship_type": "uses",
+    "description": "The group Sandworm Team uses NotPetya",
+    "source_ref": "intrusion-set--e38d9368-1fc5-5272-9a84-bbd1687754b1",
+    "target_ref": "malware--87cdd78c-c77f-5bc8-8b32-a03c50e8313c",
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

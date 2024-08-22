@@ -1,0 +1,24 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--8152f2a0-6da7-5943-8c35-e2bd1412ae34",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Net",
+    "description": "A set of command-line networking tools in Windows used for managing network resources, user accounts, and services, often used by administrators and attackers alike.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0063"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "S0039"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

@@ -1,0 +1,24 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--99b03a7c-0d44-50b8-95c4-17b65a432131",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "Indrik Spider",
+    "description": "Indrik Spider is a cybercrime group known for developing the Dridex banking Trojan and BitPaymer ransomware. The group has evolved over time, shifting from banking malware to more lucrative ransomware operations. Indrik Spider is well-organized and operates on a large scale, targeting businesses and critical infrastructure across various industries.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0009"
+        },
+        {
+            "source_name": "mitre-attack",
+            "external_id": "G0119"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

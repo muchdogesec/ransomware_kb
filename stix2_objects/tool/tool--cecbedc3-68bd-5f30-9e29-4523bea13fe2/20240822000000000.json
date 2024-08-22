@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--cecbedc3-68bd-5f30-9e29-4523bea13fe2",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "AnyDesk",
+    "description": "A remote desktop application that allows users to connect to and control other computers over the internet, known for its low latency and ease of use.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0002"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

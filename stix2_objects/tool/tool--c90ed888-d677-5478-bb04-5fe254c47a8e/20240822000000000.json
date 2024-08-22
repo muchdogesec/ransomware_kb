@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--c90ed888-d677-5478-bb04-5fe254c47a8e",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "NirSoft IEPassView (iepv)",
+    "description": "A tool from NirSoft that retrieves and displays passwords stored by Internet Explorer, commonly used in password recovery and forensic investigations.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0091"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

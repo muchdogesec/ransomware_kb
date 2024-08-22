@@ -1,0 +1,20 @@
+{
+    "type": "tool",
+    "spec_version": "2.1",
+    "id": "tool--fe1f7f85-b823-5013-abb2-9b6e449a3a9b",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "SoftPerfect NeTcan",
+    "description": "Likely refers to a network scanning or monitoring tool, though specific details may vary, possibly related to the SoftPerfect suite of network tools.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "T0072"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}

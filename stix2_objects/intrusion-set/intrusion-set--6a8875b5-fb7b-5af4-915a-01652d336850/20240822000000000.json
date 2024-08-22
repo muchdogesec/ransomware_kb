@@ -1,0 +1,20 @@
+{
+    "type": "intrusion-set",
+    "spec_version": "2.1",
+    "id": "intrusion-set--6a8875b5-fb7b-5af4-915a-01652d336850",
+    "created_by_ref": "identity--221c1248-e62e-56e5-bbfb-7d5efc477271",
+    "created": "2024-08-22T00:00:00.000Z",
+    "modified": "2024-08-22T00:00:00.000Z",
+    "name": "RIDDLE SPIDER",
+    "description": "RIDDLE SPIDER is a cybercriminal group associated with the development and deployment of ransomware strains, including the infamous Sodinokibi (REvil). They are known for their sophisticated tactics and infrastructure, often using advanced methods to evade detection and maximize the impact of their attacks.",
+    "external_references": [
+        {
+            "source_name": "ransomware-kb",
+            "external_id": "G0006"
+        }
+    ],
+    "object_marking_refs": [
+        "marking-definition--221c1248-e62e-56e5-bbfb-7d5efc477271",
+        "marking-definition--94868c89-83c2-464b-929b-a1a8aa3c8487"
+    ]
+}
